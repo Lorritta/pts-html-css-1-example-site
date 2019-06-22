@@ -1,7 +1,9 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Jane Doe’s Portfolio</title>
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Source+Sans+Pro" rel="stylesheet">
@@ -21,32 +23,42 @@
                         <a href="#skills">Skills</a>
                     </li>
                 </ul>
+                <ul>
+                <li><a href="blog/post_1.html">Post 1</a></li>
+                <li><a href="blog/post_2.html">Post 2</a></li>
+                <li><a href="blog/post_3.html">post 3</a></li>
+              </ul>
             </nav>
+
         </header>
+        <main>
 
         <div id="about-me">
             <div class="text">
                 <h2>About me</h2>
                 <p>
-                    <span class="special">Hello, I’m Jane.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    <span class="special">Hello, I’m Jane.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
                 <hr>
                 <p>
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
                 </p>
             </div>
-            <img src="images/headshot.jpg" alt="Portrait of Jane Doe." width="300px" height="auto">
+            <div class="profile-pic">
+              <img src="images/headshot.jpg" alt="Portrait of Jane Doe." width="300px" height="auto">
+            </div>
         </div>
 
         <div id="projects">
             <h2>Projects</h2>
+            <div class=“flex-container”>
 
             <div class="project">
-                <img src="images/project1.jpg" alt="Photograph of woman's hands with laptop.">
+                <img src="images/project1.jpg" alt="Photograph of woman teaching.">
                 <h4 class="project-title">Project 1</h4>
             </div>
             <div class="project">
-                <img src="images/project2.jpg" alt="Photograph of woman's hands with laptop.">
+                <img src="images/project2.jpg" alt="Photograph of woman with laptop.">
                 <h4 class="project-title">Project 2</h4>
             </div>
             <div class="project">
@@ -54,14 +66,15 @@
                 <h4 class="project-title">Project 3</h4>
             </div>
             <div class="project">
-                <img src="images/project4.jpg" alt="Photograph of woman presenting a hand sketch.">
+                <img src="images/project4.jpg" alt="Photograph of woman reading.">
                 <h4 class="project-title">Project 4</h4>
             </div>
+          </div>
         </div>
-    
+
         <div id="skills">
             <h2>Skills</h2>
-            
+
             <h3>Summary</h3>
             <p>2-3 sentences about your skills and why you’re looking for a job in tech. You could include something about where you are in your journey!</p>
 
@@ -89,5 +102,26 @@
                 </tr>
             </table>
         </div>
-    </body>
+
+  </main>
+
+  <section>
+    <div id="my-Hobbies">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qKNb8YQYTZg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h6>My Hobbies</h6>
+
+    <p>singing and coding.</p>
+    </div>
+</section>
+
+<footer>
+  <div id="my-address">
+  <h6>My address</h6>
+  <p>Written by: Amarachi Emeziem</p>
+  <p>Email: <a href="mailto:janedoe@ex.com">
+  eme.amarachi@yahoo.com</a>.</p>
+</div>
+</footer>
+
+
 </html>
